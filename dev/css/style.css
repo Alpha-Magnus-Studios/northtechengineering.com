@@ -119,6 +119,18 @@ a:hover {
 	border: 4px solid #05d561;
 }
 
+@media (min-width:800px) {
+    .navbar-brand img {
+        width: 295px;
+    }
+}
+
+@media (max-width:800px) {
+    .navbar-brand img {
+        width: 250px;
+    }
+}
+
 .navbar-brand span i {
 	line-height: 37px;
 }

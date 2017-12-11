@@ -19,7 +19,7 @@ function navbar(page = "index")
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-        <h1><a class="navbar-brand" href="index.html"><img src="images/NorthTech-Engineering.png" style="width: 295px; max-width: 40%;"></a></h1>
+        <h1><a class="navbar-brand" href="index.html"><img src="images/NorthTech-Engineering.png"></a></h1>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
 
