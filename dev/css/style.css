@@ -1270,7 +1270,6 @@ p.sub_cap {
 	color: #fff;
 	font-weight: 600;
 	margin: 1em 0;
-	letter-spacing: 3px;
 	line-height: 1.5em;
 	text-transform: uppercase;
 }
@@ -1284,7 +1283,6 @@ p.sub_cap {
 .w3_agile_service_more a {
 	font-size: 1.2em;
 	color: #212121;
-	letter-spacing: 2px;
 	text-decoration: none;
 }
 
@@ -1377,7 +1375,6 @@ p.sub_cap {
 
 .w3_agile_services_grid h4 {
 	font-size: 1.2em;
-	letter-spacing: 5px;
 	color: #111;
 	font-weight: 600;
 	margin: 2.5em 0 0.5em;
@@ -3256,7 +3253,6 @@ p.footer_info_w3ls_agile {
 	}
 	.w3_agile_services_grid h4 {
 		font-size: 1.2em;
-		letter-spacing: 2px;
 		margin: 2.5em 0 0.5em;
 	}
 	.w3agile_blog_left_grid1_left.w3layouts_recent_grid {
@@ -3616,7 +3612,6 @@ p.footer_info_w3ls_agile {
 	}
 	.w3_agile_services_grid h4 {
 		font-size: 1.1em;
-		letter-spacing: 1px;
 		margin: 2.5em 0 0.5em;
 	}
 	.footer h3 {
