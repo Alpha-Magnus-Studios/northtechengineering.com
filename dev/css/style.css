@@ -167,7 +167,7 @@ a:hover {
 
 .navbar-nav {
 	float: left;
-	margin: 1.5em 0em 0 6em;
+	margin: 1.5em 0em 0 4em;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -916,7 +916,7 @@ ul.pagination {
 
 .navbar-nav {
 	float: left;
-	margin: 1.7em 0em 0 28em;
+	margin: 1.7em 0em 0 20em;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -3132,7 +3132,7 @@ p.footer_info_w3ls_agile {
 
 @media(max-width:1280px) {
 	.navbar-nav {
-		margin: 1.7em 0em 0 21em;
+		margin: 1.7em 0em 0 18em;
 	}
 	.inner_agile_pages {
 		min-height: 250px;
@@ -3172,7 +3172,7 @@ p.footer_info_w3ls_agile {
 
 @media(max-width:1080px) {
 	.navbar-nav {
-		margin: 1.7em 0em 0 11em;
+		margin: 1.7em 0em 0 8em;
 	}
 	.w3-button {
 		margin: 2em auto 0;
@@ -3239,7 +3239,7 @@ p.footer_info_w3ls_agile {
 		width: 67%;
 	}
 	.navbar-nav {
-		margin: 1.7em 0em 0 8em;
+		margin: 1.7em 0em 0 6em;
 	}
 }
 
@@ -3414,7 +3414,7 @@ p.footer_info_w3ls_agile {
 
 @media(max-width:900px) {
 	.navbar-nav {
-		margin: 1.7em 0em 0 3em;
+		margin: 1.7em 0em 0 2em;
 	}
 	.banner_bottom_w3ls_info {
 		margin: 0 auto;
@@ -3435,7 +3435,7 @@ p.footer_info_w3ls_agile {
 
 @media(max-width:800px) {
 	.navbar-nav {
-		margin: 1.7em 0em 0 7em;
+		margin: 1.7em 0em 0 5em;
 	}
 	.s1 h3 {
 		font-size: 3.7em;
