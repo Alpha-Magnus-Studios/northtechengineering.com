@@ -684,9 +684,9 @@ nav.navbar.navbar-default {
 
 .s1 h3 {
 	color: #05d561;
-	font-size: 5em;
+	font-size: 4em;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: none;
 	text-align: center;
 	letter-spacing: 6px;
 	line-height: 1.1em;
@@ -695,8 +695,8 @@ nav.navbar.navbar-default {
 
 .s1 p {
 	margin: 0;
-	font-size: 0.9em;
-	text-align: center;
+	font-size: 1.5em;
+    text-align: center;
 	color: #fff;
 	letter-spacing: 4px;
 	text-shadow: 1px 1px 2px rgba(23, 22, 22, 0.66);
@@ -1168,13 +1168,15 @@ p.sub_cap {
 }
 
 .portfolio-agileinfo .b-wrapper {
-	background: rgba(253, 43, 48, 0.74);
+    background: rgba(13, 177, 100, 0.74);
+    color: white;
+    font-size: 20px;
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	bottom: -100%;
 	left: 0;
-	padding: 6.5em 0 0 0;
+	padding: 4em 0 0 0;
 	transition: .5s all;
 	text-align: center;
 }
