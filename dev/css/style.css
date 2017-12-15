@@ -3970,3 +3970,27 @@ p.footer_info_w3ls_agile {
 
 
 /*--//responsive--*/
+
+.pnsdiv {
+    margin-bottom: 20px;
+}
+
+.pnsdiv h3 {
+    font-family: Roboto;
+}
+
+.pnsdiv h4 {
+    
+}
+
+.pnsdiv p {
+    text-align: justify;
+}
+
+.pnsdiv img {
+    width: 90%;
+    margin: 2%;
+    margin-top: 7%;
+    border: 2px solid #333;
+    border-radius: 30px;
+}

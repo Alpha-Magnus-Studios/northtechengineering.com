@@ -28,8 +28,7 @@ function navbar(page = "index")
             <ul class="nav navbar-nav">
                 <li` + ((page == "index")    ? ' class="active"' : '') + `><a href="index.html">Home</a></li>
                 <li` + ((page == "about")    ? ' class="active"' : '') + `><a href="about.html">About</a></li>
-                <li` + ((page == "products") ? ' class="active"' : '') + `><a href="products.html">Products</a></li>
-                <li` + ((page == "services") ? ' class="active"' : '') + `><a href="services.html">Services</a></li>
+                <li` + ((page == "pns")      ? ' class="active"' : '') + `><a href="products-and-services.html">Products &amp; Services</a></li>      
                 <li` + ((page == "contact")  ? ' class="active"' : '') + `><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
@@ -48,6 +47,7 @@ function footer()
             <div class="agileits_w3layouts_nav_left">
                 <ul>
                     <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="products-and-services.html">Products &amp; Services</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
