@@ -54,8 +54,8 @@ function footer()
             </div>
             <div class="agileits_w3layouts_nav_right">
                 <ul>
-                    <li><a href="https://www.facebook.com/Northtechengineering/" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/northtechengineering/" class="w3_agile_instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/Northtechengineering/" target="_blank" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/northtechengineering/" target="_blank" class="w3_agile_instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
