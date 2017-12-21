@@ -1165,6 +1165,9 @@ p.sub_cap {
 
 .portfolio-agileinfo .portfolio-grids img.img-responsive {
 	width: 100%;
+        border-style: solid;
+        border-width:  medium;
+        border-color:#05d561;
 }
 
 .portfolio-agileinfo .b-wrapper {
