@@ -684,7 +684,7 @@ nav.navbar.navbar-default {
 
 .s1 h3 {
 	color: #05d561;
-	font-size: 4em;
+	font-size: 2em;
 	font-weight: 700;
 	text-transform: none;
 	text-align: center;
@@ -3123,7 +3123,7 @@ p.footer_info_w3ls_agile {
 	}
 	.s1 h3 {
 		color: #05d561;
-		font-size: 4.5em;
+		font-size: 3em;
 	}
 	.banner_bottom_w3ls_agile,
 	.portfolio-agileinfo,
@@ -3306,7 +3306,7 @@ p.footer_info_w3ls_agile {
 
 @media(max-width:991px) {
 	.s1 h3 {
-		font-size: 4em;
+		font-size: 2em;
 	}
 	.w3-button {
 		margin: 2em auto 0;
@@ -3439,7 +3439,7 @@ p.footer_info_w3ls_agile {
 		margin: 1.7em 0em 0 5em;
 	}
 	.s1 h3 {
-		font-size: 3.7em;
+		font-size: 2em;
 	}
 	.s1 {
 		position: absolute;
@@ -3627,7 +3627,7 @@ p.footer_info_w3ls_agile {
 		font-size: 0.8em;
 	}
 	.s1 h3 {
-		font-size: 3.3em;
+		font-size: 2em;
 	}
 	.portfolio-agileinfo .b-wrapper.two {
 		padding: 12.5em 0 0 0;
@@ -3702,7 +3702,7 @@ p.footer_info_w3ls_agile {
 
 @media(max-width:568px) {
 	.s1 h3 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	.s1 {
 		position: absolute;
@@ -3747,7 +3747,7 @@ p.footer_info_w3ls_agile {
 		padding: 0;
 	}
 	.s1 h3 {
-		font-size: 2.5em;
+		font-size: 1.5em;
 	}
 	.s1 p {
 		font-size: 0.8em;
@@ -3814,7 +3814,7 @@ p.footer_info_w3ls_agile {
 		min-height: 189px;
 	}
 	.s1 h3 {
-		font-size: 2.3em;
+		font-size: 1.5em;
 		letter-spacing: 3px;
 	}
 	.w3agile_blog_left_grid_r {
@@ -3910,7 +3910,7 @@ p.footer_info_w3ls_agile {
 		font-size: 0.9em;
 	}
 	.s1 h3 {
-		font-size: 2em;
+		font-size: 1em;
 		letter-spacing: 2px;
 	}
 	.s1 {
@@ -3945,7 +3945,7 @@ p.footer_info_w3ls_agile {
 		font-size: 0.75em;
 	}
 	.s1 h3 {
-		font-size: 1.8em;
+		font-size: 1em;
 		letter-spacing: 2px;
 	}
 	.w3-button {
