@@ -52,8 +52,8 @@ function navbar(page = "index")
                         <li><a class="pns-link" href="products-and-services.html#gis">Geographic Information Science (GIS)</a></li>
                     </ul>
                 </li>
-                <li` + ((page == "career")    ? ' class="active"' : '') + `><a href="career.html">Career</a></li>
-                <li` + ((page == "contact")  ? ' class="active"' : '') + `><a href="contact.html">Contact</a></li>
+                <li` + ((page == "career")  ? ' class="active"' : '') + `><a href="career.html">Careers</a></li>
+                <li` + ((page == "contact") ? ' class="active"' : '') + `><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -73,6 +73,7 @@ function footer()
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="products-and-services.html">Products &amp; Services</a></li>
                     <li><a href="about.html">About</a></li>
+                    <li><a href="career.html">Careers</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
