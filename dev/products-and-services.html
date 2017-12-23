@@ -673,6 +673,10 @@
         if (window.location.hash) {
             var div_id = 'div_' + window.location.hash.replace('#','');
             $('#' + div_id).slideDown();
+            $('[data-div-id=div_' + window.location.hash.replace('#','') + ']')
+                .find('i')
+                .removeClass('fa-arrow-down')
+                .addClass('fa-arrow-up');
             $('html, body').animate({
                 scrollTop: $("#" + div_id).offset().top - 100
             }, 2000);
