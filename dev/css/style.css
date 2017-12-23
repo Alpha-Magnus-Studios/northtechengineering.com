@@ -3975,15 +3975,24 @@ p.footer_info_w3ls_agile {
 /*--//responsive--*/
 
 .pnsdiv {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
 }
 
-.pnsdiv h3 {
-    font-family: Roboto;
+.pns_title {
+	text-align: left;
+	margin: 10px 0 10px 0;
+	padding: 30px;
+	padding-left: 50px;
+	background: rgba(220, 220, 220, 0.2);
+	color: #333;
+	border-radius: 10px;
+	cursor: pointer;
 }
 
-.pnsdiv h4 {
-    
+.pns_title_icon {
+	float: right;
+	margin-right: 20px;
 }
 
 .pnsdiv p {
