@@ -670,6 +670,26 @@
             $(this).html($(this).html() + '<i class="pns_title_icon fa fa-arrow-down"></i>');
         });
 
+        function slidenScroll(hash) {
+            var div_id = 'div_' + hash.replace('#','');
+            $('#' + div_id).slideDown();
+            $('[data-div-id=div_' + hash.replace('#','') + ']')
+                .find('i')
+                .removeClass('fa-arrow-down')
+                .addClass('fa-arrow-up');
+            $('html, body').animate({
+                scrollTop: $("#" + div_id).offset().top - 100
+            }, 2000);
+        }
+
+        if (window.location.hash) {
+            slidenScroll(window.location.hash);
+        }
+
+        $('.pns-link').click((e) => {
+            slidenScroll('#' + $(e.target).attr('href').split('#')[1]);
+        });
+
         function slide(title) {
             $('#' + title.attr('data-div-id')).slideToggle();
             var t_ico = title.find('i');
@@ -689,6 +709,28 @@
     });
     
     </script>
+
+    <!-- here stars scrolling icon -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
 </body>
 
 </html>
