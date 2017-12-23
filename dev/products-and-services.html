@@ -670,10 +670,10 @@
             $(this).html($(this).html() + '<i class="pns_title_icon fa fa-arrow-down"></i>');
         });
 
-        if (window.location.hash) {
-            var div_id = 'div_' + window.location.hash.replace('#','');
+        function slidenScroll(hash) {
+            var div_id = 'div_' + hash.replace('#','');
             $('#' + div_id).slideDown();
-            $('[data-div-id=div_' + window.location.hash.replace('#','') + ']')
+            $('[data-div-id=div_' + hash.replace('#','') + ']')
                 .find('i')
                 .removeClass('fa-arrow-down')
                 .addClass('fa-arrow-up');
@@ -681,6 +681,14 @@
                 scrollTop: $("#" + div_id).offset().top - 100
             }, 2000);
         }
+
+        if (window.location.hash) {
+            slidenScroll(window.location.hash);
+        }
+
+        $('.pns-link').click((e) => {
+            slidenScroll('#' + $(e.target).attr('href').split('#')[1]);
+        });
 
         function slide(title) {
             $('#' + title.attr('data-div-id')).slideToggle();
