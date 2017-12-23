@@ -670,6 +670,14 @@
             $(this).html($(this).html() + '<i class="pns_title_icon fa fa-arrow-down"></i>');
         });
 
+        if (window.location.hash) {
+            var div_id = 'div_' + window.location.hash.replace('#','');
+            $('#' + div_id).slideDown();
+            $('html, body').animate({
+                scrollTop: $("#" + div_id).offset().top - 100
+            }, 2000);
+        }
+
         function slide(title) {
             $('#' + title.attr('data-div-id')).slideToggle();
             var t_ico = title.find('i');
