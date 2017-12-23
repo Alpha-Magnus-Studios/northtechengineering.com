@@ -50,9 +50,8 @@ p,
 ul,
 ol {
 	font-size: 14px;
-	letter-spacing: 1px;
-	color: #6e6e6f;
-	line-height: 1.9em;
+	letter-spacing: .8px;
+
 }
 
 .background-video {
@@ -99,6 +98,14 @@ a:hover {
 	border: none;
 }
 
+.navbar-p,
+ul,
+ol {
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #6e6e6f;
+	line-height: 1.9em;
+}
 .navbar {
 	margin-bottom: 0;
 }
