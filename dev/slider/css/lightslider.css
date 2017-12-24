@@ -2,18 +2,18 @@
 .ams_slider {
     width:100%;
 }
-ul {
+.ams_slider ul {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom:0;
 }
-li {
+.ams_slider li {
     display: block;
     float: left;
     margin-right: 6px;
     cursor:pointer;
 }
-img {
+.ams_slider img {
     display: block;
     height: auto;
     max-width: 100%;
