@@ -21,7 +21,7 @@ function navbar(page = "index")
             </button>
         <h1>
             <a class="navbar-brand" href="index.html">
-                <img src="images/NorthTech-Engineering.png">
+                <img style="background: rgba(255, 255, 255, 0.1);padding: 7px; border-radius: 7px;" src="images/NorthTech-Engineering.png">
             </a>
         </h1>
     </div>
