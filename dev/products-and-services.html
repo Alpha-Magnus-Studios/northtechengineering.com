@@ -696,13 +696,8 @@
             }, 2000);
         }
 
-        if (window.location.hash) {
-            slidenScroll(window.location.hash);
-        }
-
-        $('.pns-link').click((e) => {
-            slidenScroll('#' + $(e.target).attr('href').split('#')[1]);
-        });
+        if (window.location.hash)   { slidenScroll(window.location.hash); }
+        $('.pns-link').click((e) => { slidenScroll('#' + $(e.target).attr('href').split('#')[1]); });
 
         function slide(title) {
             minPrev(title.attr('data-div-id'));
@@ -720,6 +715,7 @@
 
         $('.pns_title_icon').click((event) => {
             slide($(event.target).parent());
+            event.stopPropagation();
         });
     });
     
