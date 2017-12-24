@@ -670,8 +670,22 @@
             $(this).html($(this).html() + '<i class="pns_title_icon fa fa-arrow-down"></i>');
         });
 
+        prevDIV = false;
+
+        function minPrev(currDIV) {
+            if (prevDIV && prevDIV != currDIV) {
+                $('#' + prevDIV).slideUp();
+                $('[data-div-id=' + prevDIV + ']')
+                    .find('i')
+                    .removeClass('fa-arrow-up')
+                    .addClass('fa-arrow-down');
+            }
+            prevDIV = currDIV;
+        }
+
         function slidenScroll(hash) {
             var div_id = 'div_' + hash.replace('#','');
+            minPrev(div_id);
             $('#' + div_id).slideDown();
             $('[data-div-id=div_' + hash.replace('#','') + ']')
                 .find('i')
@@ -691,6 +705,7 @@
         });
 
         function slide(title) {
+            minPrev(title.attr('data-div-id'));
             $('#' + title.attr('data-div-id')).slideToggle();
             var t_ico = title.find('i');
             if (t_ico.hasClass('fa-arrow-down'))
