@@ -1,22 +1,38 @@
-
-    	 $(document).ready(function() {
-			$("#content-slider").lightSlider({
-                loop:true,
-                keyPress:true
-            });
-            $('#image-gallery').lightSlider({
-                gallery:true,
-                item:4,
-                thumbItem:10,
-                slideMargin: 0,
-                speed:500,
-                auto:true,
-                loop:true,
-                onSliderLoad: function() {
-                    $('#image-gallery').removeClass('cS-hidden');
-                }  
-            });
-		});
+/**
+ * Slider
+ * (c) Alpha Magnus Studios
+ * https://www.alphamstudios.com
+ */
+$(document).ready(function() {
+    $("#content-slider").lightSlider({
+        loop:true,
+        keyPress:true
+    });
+    $('#image-gallery').lightSlider({
+        gallery:true,
+        item:4,
+        thumbItem:10,
+        slideMargin: 0,
+        speed:500,
+        auto:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#image-gallery').removeClass('cS-hidden');
+        }  
+    });
+    $('#slider-brands').lightSlider({
+        gallery:true,
+        item:4,
+        thumbItem:8,
+        slideMargin: 0,
+        speed:500,
+        auto:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#slider-brands').removeClass('cS-hidden');
+        }  
+    });
+});
 (function ($, undefined) {
     'use strict';
     var defaults = {
