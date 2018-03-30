@@ -34,7 +34,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <!-- //font -->
     
-    <script src="js/functions.js"></script>
+	<script src="js/functions.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -125,10 +126,18 @@
 							<input type="email" id="email" name="email" placeholder="Email" required="">
 							<input type="text" id="phone" name="phone" placeholder="Phone" required="">
                             <textarea name="message" id="message" placeholder="Message..." required=""></textarea>
-							<input type="submit" value="Send">
+							<div style="width:197.6px;margin:auto">
+								<div class="g-recaptcha" style="margin:auto; transform:scale(0.65);-webkit-transform:scale(0.65);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6Lcn9k8UAAAAALqQBAKl5tejtRdYY6ONTf7JwmkR" data-callback="enableBtn"></div>
+								</div>
+							<input type="submit" value="Send" id="submit">
 						</div>
 						<div class="clearfix"> </div>
 					</form>
+					<script>
+							document.getElementById("submit").setAttribute("disabled", "disabled");
+							function enableBtn(){
+								document.getElementById("submit").removeAttribute("disabled");}
+					</script>
 				</div>
 
 			</div>
